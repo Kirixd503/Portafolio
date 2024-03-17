@@ -1,0 +1,214 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+/*
+Cont principal
+*/
+.cont-P{
+display: flex;
+flex-direction: column;
+}
+/*
+Header
+*/
+header{
+    width: 100%;
+    background-image: url(img/header-fond.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 500px;
+    
+}
+
+/*
+Nav bar
+*/
+nav{
+    display:flex;
+    width: 100%;
+   height: 10%;
+   background-color: #ffb224;
+   
+}
+
+.List-nav{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+   
+}
+
+.list-nav{
+    margin: 0px 10px;
+    padding-top: 15px;
+    list-style: none;
+}
+
+.link-nav{
+    color: black;
+    padding-right: 10px;
+    text-decoration: none;
+   
+}
+/*
+tittle
+*/
+
+h1{
+    width: 100%;
+    height: 15%;
+    padding-top: 15%;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*
+sub tittle
+*/
+.Sub{
+    width: 100%;
+    height: 50%;
+    margin-left: 40%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*
+first-arcticle
+*/
+
+.first-content{
+    width: 100%;
+    background-color: #ffb224;
+}
+
+p{
+    margin: 20%;
+    margin-top:2%;
+    margin-bottom: 3%;
+}
+.h3{
+    margin-top: 5%;
+    font-size: 40px;
+    text-align: center;
+}
+
+img{
+    margin-left: 33%;
+    width: 30%;
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+/*
+second article
+*/
+
+.second-content{
+    width: 100%;
+    padding-bottom: 30px;
+    background-color: #005aff
+    ;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+table{
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 10px;
+   border: 2px solid black;
+   border-collapse: collapse;
+   background-color: white;
+}
+tr{
+    width: 100%;
+    padding: 30px;
+   border: 2px solid black;
+    
+}
+th{
+    padding: 10px;
+    border: 2px solid black;
+    
+    
+}
+
+td{
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+.table{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+/*viwers*/
+
+.content-viewrs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.sub-content-circle{
+   
+
+   
+}
+
+.circle{
+    width: 50%;
+    height: 50%;
+   
+  margin: 20%;
+  margin-bottom: 5%;
+}
+
+.decriptions{
+    
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+/*
+
+footer
+*/
+
+footer{
+    width: 100%;
+    background-color: #005aff;
+    display: flex;
+   
+}
+.footer-list{
+display: flex;
+flex-direction: row;
+width: 100%;
+}
+.footer-sublist1{
+    margin-top: 2%;
+   width: 30%;
+   margin-bottom: 2%;
+}
+.footer-link{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10%;
+   
+}
+li{
+    list-style: none;
+}
+
+
